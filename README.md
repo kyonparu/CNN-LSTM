@@ -1,3 +1,5 @@
-# CNN-LSTM-WaveNet02
+# CNN-LSTM
 
-WaveNetちゃんと設定したバージョン。音声は聞けたものではない。
+WaveNet除いたver.
+
+損失関数とか見直したほうがいいかも..?ってなった
