@@ -1,0 +1,428 @@
+2025-05-16 17:32:03,410 - INFO - Configuration loaded.
+2025-05-16 17:32:03,410 - INFO - Checkpoint path set.
+2025-05-16 17:32:03,410 - INFO - Stages mapped.
+2025-05-16 17:32:03,410 - INFO - Starting evaluation...
+2025-05-16 17:32:03,413 - INFO - First line in trainlist: ATR503M0102_051
+2025-05-16 17:32:03,413 - INFO - Extracted speaker_id: M0102, sentence_id: 051
+2025-05-16 17:32:03,433 - INFO - audio_features type: <class 'torch.Tensor'>, shape: torch.Size([372, 80])
+2025-05-16 17:32:03,433 - INFO - articulatory_features type: <class 'torch.Tensor'>, shape: torch.Size([372, 6, 6])
+2025-05-16 17:32:03,442 - INFO - phoneme_embeddings type: <class 'torch.Tensor'>, shape: torch.Size([372, 16])
+2025-05-16 17:32:03,443 - INFO - Feature dimensions: audio_dim=80, articulatory_dim=6, linguistic_dim=16
+2025-05-16 17:32:03,443 - INFO - Dimensions: audio_dim=80, articulatory_dim=6, linguistic_dim=16
+2025-05-16 17:32:03,708 - INFO - Checkpoint loaded from train_checkpoint/checkpoint.pth
+2025-05-16 17:32:03,708 - INFO - Model loaded for evaluation.
+2025-05-16 17:32:03,710 - INFO - Starting evaluation process...
+2025-05-16 17:32:03,710 - INFO - Loading model...
+2025-05-16 17:32:03,712 - INFO - First line in trainlist: ATR503M0102_101
+2025-05-16 17:32:03,713 - INFO - Extracted speaker_id: M0102, sentence_id: 101
+2025-05-16 17:32:03,727 - INFO - audio_features type: <class 'torch.Tensor'>, shape: torch.Size([514, 80])
+2025-05-16 17:32:03,727 - INFO - articulatory_features type: <class 'torch.Tensor'>, shape: torch.Size([514, 6, 6])
+2025-05-16 17:32:03,728 - INFO - phoneme_embeddings type: <class 'torch.Tensor'>, shape: torch.Size([514, 16])
+2025-05-16 17:32:03,728 - INFO - Feature dimensions: audio_dim=80, articulatory_dim=6, linguistic_dim=16
+2025-05-16 17:32:03,798 - INFO - Model loaded successfully.
+2025-05-16 17:32:03,799 - INFO - Initializing dataset...
+2025-05-16 17:32:03,799 - INFO - Dataset initialized successfully.
+2025-05-16 17:32:03,799 - INFO - Loading test list...
+2025-05-16 17:32:03,801 - INFO - Test list loaded successfully. 50 items found.
+2025-05-16 17:32:03,803 - INFO - Processing item 1/50: ATR503M0102_051
+2025-05-16 17:32:03,810 - INFO - Generating MGC for speaker M0102, sentence 051...
+2025-05-16 17:32:04,130 - INFO - log_mel.shape[1]: 356, target_length: 372
+2025-05-16 17:32:04,268 - INFO - CNN output shape: torch.Size([1, 64, 372, 3])
+2025-05-16 17:32:04,269 - INFO - Phoneme embeddings shape: torch.Size([1, 372, 16])
+2025-05-16 17:32:04,273 - INFO - Combined input shape for LSTM: torch.Size([1, 372, 208])
+2025-05-16 17:32:04,355 - INFO - Predicted MGC saved: dump/test/M0102_051_predicted.npy
+2025-05-16 17:32:04,357 - INFO - MCD calculated for speaker M0102, sentence 051: 113.3532
+2025-05-16 17:32:04,357 - INFO - Processing item 2/50: ATR503M0102_052
+2025-05-16 17:32:04,366 - INFO - Generating MGC for speaker M0102, sentence 052...
+2025-05-16 17:32:04,412 - INFO - log_mel.shape[1]: 378, target_length: 394
+2025-05-16 17:32:04,420 - INFO - CNN output shape: torch.Size([1, 64, 394, 3])
+2025-05-16 17:32:04,421 - INFO - Phoneme embeddings shape: torch.Size([1, 394, 16])
+2025-05-16 17:32:04,421 - INFO - Combined input shape for LSTM: torch.Size([1, 394, 208])
+2025-05-16 17:32:04,433 - INFO - Predicted MGC saved: dump/test/M0102_052_predicted.npy
+2025-05-16 17:32:04,438 - INFO - MCD calculated for speaker M0102, sentence 052: 151.7941
+2025-05-16 17:32:04,439 - INFO - Processing item 3/50: ATR503M0102_053
+2025-05-16 17:32:04,450 - INFO - Generating MGC for speaker M0102, sentence 053...
+2025-05-16 17:32:04,496 - INFO - log_mel.shape[1]: 574, target_length: 590
+2025-05-16 17:32:04,546 - INFO - CNN output shape: torch.Size([1, 64, 590, 3])
+2025-05-16 17:32:04,549 - INFO - Phoneme embeddings shape: torch.Size([1, 590, 16])
+2025-05-16 17:32:04,549 - INFO - Combined input shape for LSTM: torch.Size([1, 590, 208])
+2025-05-16 17:32:04,572 - INFO - Predicted MGC saved: dump/test/M0102_053_predicted.npy
+2025-05-16 17:32:04,580 - INFO - MCD calculated for speaker M0102, sentence 053: 129.3823
+2025-05-16 17:32:04,581 - INFO - Processing item 4/50: ATR503M0102_054
+2025-05-16 17:32:04,592 - INFO - Generating MGC for speaker M0102, sentence 054...
+2025-05-16 17:32:04,669 - INFO - log_mel.shape[1]: 641, target_length: 657
+2025-05-16 17:32:04,736 - INFO - CNN output shape: torch.Size([1, 64, 657, 3])
+2025-05-16 17:32:04,739 - INFO - Phoneme embeddings shape: torch.Size([1, 657, 16])
+2025-05-16 17:32:04,739 - INFO - Combined input shape for LSTM: torch.Size([1, 657, 208])
+2025-05-16 17:32:04,760 - INFO - Predicted MGC saved: dump/test/M0102_054_predicted.npy
+2025-05-16 17:32:04,768 - INFO - MCD calculated for speaker M0102, sentence 054: 117.2269
+2025-05-16 17:32:04,768 - INFO - Processing item 5/50: ATR503M0102_055
+2025-05-16 17:32:04,776 - INFO - Generating MGC for speaker M0102, sentence 055...
+2025-05-16 17:32:04,878 - INFO - log_mel.shape[1]: 676, target_length: 692
+2025-05-16 17:32:04,950 - INFO - CNN output shape: torch.Size([1, 64, 692, 3])
+2025-05-16 17:32:04,950 - INFO - Phoneme embeddings shape: torch.Size([1, 692, 16])
+2025-05-16 17:32:04,950 - INFO - Combined input shape for LSTM: torch.Size([1, 692, 208])
+2025-05-16 17:32:04,966 - INFO - Predicted MGC saved: dump/test/M0102_055_predicted.npy
+2025-05-16 17:32:04,977 - INFO - MCD calculated for speaker M0102, sentence 055: 104.0125
+2025-05-16 17:32:04,977 - INFO - Processing item 6/50: ATR503M0102_056
+2025-05-16 17:32:04,988 - INFO - Generating MGC for speaker M0102, sentence 056...
+2025-05-16 17:32:05,053 - INFO - log_mel.shape[1]: 649, target_length: 665
+2025-05-16 17:32:05,114 - INFO - CNN output shape: torch.Size([1, 64, 665, 3])
+2025-05-16 17:32:05,121 - INFO - Phoneme embeddings shape: torch.Size([1, 665, 16])
+2025-05-16 17:32:05,122 - INFO - Combined input shape for LSTM: torch.Size([1, 665, 208])
+2025-05-16 17:32:05,142 - INFO - Predicted MGC saved: dump/test/M0102_056_predicted.npy
+2025-05-16 17:32:05,151 - INFO - MCD calculated for speaker M0102, sentence 056: 100.6951
+2025-05-16 17:32:05,151 - INFO - Processing item 7/50: ATR503M0102_057
+2025-05-16 17:32:05,164 - INFO - Generating MGC for speaker M0102, sentence 057...
+2025-05-16 17:32:05,244 - INFO - log_mel.shape[1]: 664, target_length: 680
+2025-05-16 17:32:05,290 - INFO - CNN output shape: torch.Size([1, 64, 680, 3])
+2025-05-16 17:32:05,298 - INFO - Phoneme embeddings shape: torch.Size([1, 680, 16])
+2025-05-16 17:32:05,299 - INFO - Combined input shape for LSTM: torch.Size([1, 680, 208])
+2025-05-16 17:32:05,321 - INFO - Predicted MGC saved: dump/test/M0102_057_predicted.npy
+2025-05-16 17:32:05,332 - INFO - MCD calculated for speaker M0102, sentence 057: 103.7503
+2025-05-16 17:32:05,332 - INFO - Processing item 8/50: ATR503M0102_058
+2025-05-16 17:32:05,345 - INFO - Generating MGC for speaker M0102, sentence 058...
+2025-05-16 17:32:05,428 - INFO - log_mel.shape[1]: 694, target_length: 710
+2025-05-16 17:32:05,468 - INFO - CNN output shape: torch.Size([1, 64, 710, 3])
+2025-05-16 17:32:05,468 - INFO - Phoneme embeddings shape: torch.Size([1, 710, 16])
+2025-05-16 17:32:05,469 - INFO - Combined input shape for LSTM: torch.Size([1, 710, 208])
+2025-05-16 17:32:05,486 - INFO - Predicted MGC saved: dump/test/M0102_058_predicted.npy
+2025-05-16 17:32:05,490 - INFO - MCD calculated for speaker M0102, sentence 058: 112.2431
+2025-05-16 17:32:05,491 - INFO - Processing item 9/50: ATR503M0102_059
+2025-05-16 17:32:05,502 - INFO - Generating MGC for speaker M0102, sentence 059...
+2025-05-16 17:32:05,550 - INFO - log_mel.shape[1]: 703, target_length: 719
+2025-05-16 17:32:05,601 - INFO - CNN output shape: torch.Size([1, 64, 719, 3])
+2025-05-16 17:32:05,602 - INFO - Phoneme embeddings shape: torch.Size([1, 719, 16])
+2025-05-16 17:32:05,602 - INFO - Combined input shape for LSTM: torch.Size([1, 719, 208])
+2025-05-16 17:32:05,619 - INFO - Predicted MGC saved: dump/test/M0102_059_predicted.npy
+2025-05-16 17:32:05,623 - INFO - MCD calculated for speaker M0102, sentence 059: 112.1117
+2025-05-16 17:32:05,624 - INFO - Processing item 10/50: ATR503M0102_060
+2025-05-16 17:32:05,636 - INFO - Generating MGC for speaker M0102, sentence 060...
+2025-05-16 17:32:05,688 - INFO - log_mel.shape[1]: 631, target_length: 647
+2025-05-16 17:32:05,755 - INFO - CNN output shape: torch.Size([1, 64, 647, 3])
+2025-05-16 17:32:05,758 - INFO - Phoneme embeddings shape: torch.Size([1, 647, 16])
+2025-05-16 17:32:05,759 - INFO - Combined input shape for LSTM: torch.Size([1, 647, 208])
+2025-05-16 17:32:05,776 - INFO - Predicted MGC saved: dump/test/M0102_060_predicted.npy
+2025-05-16 17:32:05,780 - INFO - MCD calculated for speaker M0102, sentence 060: 127.1099
+2025-05-16 17:32:05,782 - INFO - Processing item 11/50: ATR503M0102_061
+2025-05-16 17:32:05,796 - INFO - Generating MGC for speaker M0102, sentence 061...
+2025-05-16 17:32:05,860 - INFO - log_mel.shape[1]: 754, target_length: 770
+2025-05-16 17:32:05,900 - INFO - CNN output shape: torch.Size([1, 64, 770, 3])
+2025-05-16 17:32:05,900 - INFO - Phoneme embeddings shape: torch.Size([1, 770, 16])
+2025-05-16 17:32:05,900 - INFO - Combined input shape for LSTM: torch.Size([1, 770, 208])
+2025-05-16 17:32:05,922 - INFO - Predicted MGC saved: dump/test/M0102_061_predicted.npy
+2025-05-16 17:32:05,931 - INFO - MCD calculated for speaker M0102, sentence 061: 98.5283
+2025-05-16 17:32:05,933 - INFO - Processing item 12/50: ATR503M0102_062
+2025-05-16 17:32:05,944 - INFO - Generating MGC for speaker M0102, sentence 062...
+2025-05-16 17:32:06,009 - INFO - log_mel.shape[1]: 896, target_length: 912
+2025-05-16 17:32:06,124 - INFO - CNN output shape: torch.Size([1, 64, 912, 3])
+2025-05-16 17:32:06,125 - INFO - Phoneme embeddings shape: torch.Size([1, 912, 16])
+2025-05-16 17:32:06,125 - INFO - Combined input shape for LSTM: torch.Size([1, 912, 208])
+2025-05-16 17:32:06,150 - INFO - Predicted MGC saved: dump/test/M0102_062_predicted.npy
+2025-05-16 17:32:06,153 - INFO - MCD calculated for speaker M0102, sentence 062: 111.7318
+2025-05-16 17:32:06,153 - INFO - Processing item 13/50: ATR503M0102_063
+2025-05-16 17:32:06,171 - INFO - Generating MGC for speaker M0102, sentence 063...
+2025-05-16 17:32:06,218 - INFO - log_mel.shape[1]: 806, target_length: 822
+2025-05-16 17:32:06,258 - INFO - CNN output shape: torch.Size([1, 64, 822, 3])
+2025-05-16 17:32:06,258 - INFO - Phoneme embeddings shape: torch.Size([1, 822, 16])
+2025-05-16 17:32:06,259 - INFO - Combined input shape for LSTM: torch.Size([1, 822, 208])
+2025-05-16 17:32:06,280 - INFO - Predicted MGC saved: dump/test/M0102_063_predicted.npy
+2025-05-16 17:32:06,285 - INFO - MCD calculated for speaker M0102, sentence 063: 120.5557
+2025-05-16 17:32:06,286 - INFO - Processing item 14/50: ATR503M0102_064
+2025-05-16 17:32:06,298 - INFO - Generating MGC for speaker M0102, sentence 064...
+2025-05-16 17:32:06,363 - INFO - log_mel.shape[1]: 741, target_length: 757
+2025-05-16 17:32:06,417 - INFO - CNN output shape: torch.Size([1, 64, 757, 3])
+2025-05-16 17:32:06,420 - INFO - Phoneme embeddings shape: torch.Size([1, 757, 16])
+2025-05-16 17:32:06,421 - INFO - Combined input shape for LSTM: torch.Size([1, 757, 208])
+2025-05-16 17:32:06,440 - INFO - Predicted MGC saved: dump/test/M0102_064_predicted.npy
+2025-05-16 17:32:06,444 - INFO - MCD calculated for speaker M0102, sentence 064: 107.0124
+2025-05-16 17:32:06,445 - INFO - Processing item 15/50: ATR503M0102_065
+2025-05-16 17:32:06,456 - INFO - Generating MGC for speaker M0102, sentence 065...
+2025-05-16 17:32:06,509 - INFO - log_mel.shape[1]: 904, target_length: 920
+2025-05-16 17:32:06,625 - INFO - CNN output shape: torch.Size([1, 64, 920, 3])
+2025-05-16 17:32:06,625 - INFO - Phoneme embeddings shape: torch.Size([1, 920, 16])
+2025-05-16 17:32:06,626 - INFO - Combined input shape for LSTM: torch.Size([1, 920, 208])
+2025-05-16 17:32:06,648 - INFO - Predicted MGC saved: dump/test/M0102_065_predicted.npy
+2025-05-16 17:32:06,651 - INFO - MCD calculated for speaker M0102, sentence 065: 106.6263
+2025-05-16 17:32:06,652 - INFO - Processing item 16/50: ATR503M0102_066
+2025-05-16 17:32:06,669 - INFO - Generating MGC for speaker M0102, sentence 066...
+2025-05-16 17:32:06,744 - INFO - log_mel.shape[1]: 889, target_length: 905
+2025-05-16 17:32:06,774 - INFO - CNN output shape: torch.Size([1, 64, 905, 3])
+2025-05-16 17:32:06,774 - INFO - Phoneme embeddings shape: torch.Size([1, 905, 16])
+2025-05-16 17:32:06,775 - INFO - Combined input shape for LSTM: torch.Size([1, 905, 208])
+2025-05-16 17:32:06,797 - INFO - Predicted MGC saved: dump/test/M0102_066_predicted.npy
+2025-05-16 17:32:06,802 - INFO - MCD calculated for speaker M0102, sentence 066: 101.5686
+2025-05-16 17:32:06,802 - INFO - Processing item 17/50: ATR503M0102_067
+2025-05-16 17:32:06,814 - INFO - Generating MGC for speaker M0102, sentence 067...
+2025-05-16 17:32:06,875 - INFO - log_mel.shape[1]: 846, target_length: 862
+2025-05-16 17:32:06,919 - INFO - CNN output shape: torch.Size([1, 64, 862, 3])
+2025-05-16 17:32:06,921 - INFO - Phoneme embeddings shape: torch.Size([1, 862, 16])
+2025-05-16 17:32:06,922 - INFO - Combined input shape for LSTM: torch.Size([1, 862, 208])
+2025-05-16 17:32:06,946 - INFO - Predicted MGC saved: dump/test/M0102_067_predicted.npy
+2025-05-16 17:32:06,958 - INFO - MCD calculated for speaker M0102, sentence 067: 106.9816
+2025-05-16 17:32:06,959 - INFO - Processing item 18/50: ATR503M0102_068
+2025-05-16 17:32:06,968 - INFO - Generating MGC for speaker M0102, sentence 068...
+2025-05-16 17:32:07,037 - INFO - log_mel.shape[1]: 826, target_length: 842
+2025-05-16 17:32:07,111 - INFO - CNN output shape: torch.Size([1, 64, 842, 3])
+2025-05-16 17:32:07,111 - INFO - Phoneme embeddings shape: torch.Size([1, 842, 16])
+2025-05-16 17:32:07,112 - INFO - Combined input shape for LSTM: torch.Size([1, 842, 208])
+2025-05-16 17:32:07,129 - INFO - Predicted MGC saved: dump/test/M0102_068_predicted.npy
+2025-05-16 17:32:07,135 - INFO - MCD calculated for speaker M0102, sentence 068: 115.7856
+2025-05-16 17:32:07,137 - INFO - Processing item 19/50: ATR503M0102_069
+2025-05-16 17:32:07,146 - INFO - Generating MGC for speaker M0102, sentence 069...
+2025-05-16 17:32:07,216 - INFO - log_mel.shape[1]: 786, target_length: 802
+2025-05-16 17:32:07,277 - INFO - CNN output shape: torch.Size([1, 64, 802, 3])
+2025-05-16 17:32:07,291 - INFO - Phoneme embeddings shape: torch.Size([1, 802, 16])
+2025-05-16 17:32:07,292 - INFO - Combined input shape for LSTM: torch.Size([1, 802, 208])
+2025-05-16 17:32:07,309 - INFO - Predicted MGC saved: dump/test/M0102_069_predicted.npy
+2025-05-16 17:32:07,314 - INFO - MCD calculated for speaker M0102, sentence 069: 99.2729
+2025-05-16 17:32:07,314 - INFO - Processing item 20/50: ATR503M0102_070
+2025-05-16 17:32:07,326 - INFO - Generating MGC for speaker M0102, sentence 070...
+2025-05-16 17:32:07,417 - INFO - log_mel.shape[1]: 874, target_length: 890
+2025-05-16 17:32:07,520 - INFO - CNN output shape: torch.Size([1, 64, 890, 3])
+2025-05-16 17:32:07,520 - INFO - Phoneme embeddings shape: torch.Size([1, 890, 16])
+2025-05-16 17:32:07,520 - INFO - Combined input shape for LSTM: torch.Size([1, 890, 208])
+2025-05-16 17:32:07,550 - INFO - Predicted MGC saved: dump/test/M0102_070_predicted.npy
+2025-05-16 17:32:07,554 - INFO - MCD calculated for speaker M0102, sentence 070: 108.1314
+2025-05-16 17:32:07,554 - INFO - Processing item 21/50: ATR503M0102_071
+2025-05-16 17:32:07,584 - INFO - Generating MGC for speaker M0102, sentence 071...
+2025-05-16 17:32:07,643 - INFO - log_mel.shape[1]: 986, target_length: 1002
+2025-05-16 17:32:07,747 - INFO - CNN output shape: torch.Size([1, 64, 1002, 3])
+2025-05-16 17:32:07,750 - INFO - Phoneme embeddings shape: torch.Size([1, 1002, 16])
+2025-05-16 17:32:07,750 - INFO - Combined input shape for LSTM: torch.Size([1, 1002, 208])
+2025-05-16 17:32:07,781 - INFO - Predicted MGC saved: dump/test/M0102_071_predicted.npy
+2025-05-16 17:32:07,784 - INFO - MCD calculated for speaker M0102, sentence 071: 110.1653
+2025-05-16 17:32:07,785 - INFO - Processing item 22/50: ATR503M0102_072
+2025-05-16 17:32:07,807 - INFO - Generating MGC for speaker M0102, sentence 072...
+2025-05-16 17:32:07,860 - INFO - log_mel.shape[1]: 936, target_length: 952
+2025-05-16 17:32:07,976 - INFO - CNN output shape: torch.Size([1, 64, 952, 3])
+2025-05-16 17:32:07,976 - INFO - Phoneme embeddings shape: torch.Size([1, 952, 16])
+2025-05-16 17:32:07,977 - INFO - Combined input shape for LSTM: torch.Size([1, 952, 208])
+2025-05-16 17:32:08,008 - INFO - Predicted MGC saved: dump/test/M0102_072_predicted.npy
+2025-05-16 17:32:08,012 - INFO - MCD calculated for speaker M0102, sentence 072: 102.0259
+2025-05-16 17:32:08,012 - INFO - Processing item 23/50: ATR503M0102_073
+2025-05-16 17:32:08,030 - INFO - Generating MGC for speaker M0102, sentence 073...
+2025-05-16 17:32:08,081 - INFO - log_mel.shape[1]: 958, target_length: 974
+2025-05-16 17:32:08,093 - INFO - CNN output shape: torch.Size([1, 64, 974, 3])
+2025-05-16 17:32:08,093 - INFO - Phoneme embeddings shape: torch.Size([1, 974, 16])
+2025-05-16 17:32:08,093 - INFO - Combined input shape for LSTM: torch.Size([1, 974, 208])
+2025-05-16 17:32:08,119 - INFO - Predicted MGC saved: dump/test/M0102_073_predicted.npy
+2025-05-16 17:32:08,126 - INFO - MCD calculated for speaker M0102, sentence 073: 119.4668
+2025-05-16 17:32:08,127 - INFO - Processing item 24/50: ATR503M0102_074
+2025-05-16 17:32:08,137 - INFO - Generating MGC for speaker M0102, sentence 074...
+2025-05-16 17:32:08,195 - INFO - log_mel.shape[1]: 973, target_length: 989
+2025-05-16 17:32:08,310 - INFO - CNN output shape: torch.Size([1, 64, 989, 3])
+2025-05-16 17:32:08,311 - INFO - Phoneme embeddings shape: torch.Size([1, 989, 16])
+2025-05-16 17:32:08,311 - INFO - Combined input shape for LSTM: torch.Size([1, 989, 208])
+2025-05-16 17:32:08,337 - INFO - Predicted MGC saved: dump/test/M0102_074_predicted.npy
+2025-05-16 17:32:08,341 - INFO - MCD calculated for speaker M0102, sentence 074: 119.4212
+2025-05-16 17:32:08,341 - INFO - Processing item 25/50: ATR503M0102_075
+2025-05-16 17:32:08,365 - INFO - Generating MGC for speaker M0102, sentence 075...
+2025-05-16 17:32:08,416 - INFO - log_mel.shape[1]: 936, target_length: 952
+2025-05-16 17:32:08,530 - INFO - CNN output shape: torch.Size([1, 64, 952, 3])
+2025-05-16 17:32:08,531 - INFO - Phoneme embeddings shape: torch.Size([1, 952, 16])
+2025-05-16 17:32:08,531 - INFO - Combined input shape for LSTM: torch.Size([1, 952, 208])
+2025-05-16 17:32:08,558 - INFO - Predicted MGC saved: dump/test/M0102_075_predicted.npy
+2025-05-16 17:32:08,562 - INFO - MCD calculated for speaker M0102, sentence 075: 108.9602
+2025-05-16 17:32:08,562 - INFO - Processing item 26/50: ATR503M0102_076
+2025-05-16 17:32:08,588 - INFO - Generating MGC for speaker M0102, sentence 076...
+2025-05-16 17:32:08,706 - INFO - log_mel.shape[1]: 1006, target_length: 1022
+2025-05-16 17:32:08,820 - INFO - CNN output shape: torch.Size([1, 64, 1022, 3])
+2025-05-16 17:32:08,821 - INFO - Phoneme embeddings shape: torch.Size([1, 1022, 16])
+2025-05-16 17:32:08,821 - INFO - Combined input shape for LSTM: torch.Size([1, 1022, 208])
+2025-05-16 17:32:08,854 - INFO - Predicted MGC saved: dump/test/M0102_076_predicted.npy
+2025-05-16 17:32:08,858 - INFO - MCD calculated for speaker M0102, sentence 076: 102.9992
+2025-05-16 17:32:08,858 - INFO - Processing item 27/50: ATR503M0102_077
+2025-05-16 17:32:08,880 - INFO - Generating MGC for speaker M0102, sentence 077...
+2025-05-16 17:32:08,959 - INFO - log_mel.shape[1]: 903, target_length: 919
+2025-05-16 17:32:08,976 - INFO - CNN output shape: torch.Size([1, 64, 919, 3])
+2025-05-16 17:32:08,977 - INFO - Phoneme embeddings shape: torch.Size([1, 919, 16])
+2025-05-16 17:32:08,978 - INFO - Combined input shape for LSTM: torch.Size([1, 919, 208])
+2025-05-16 17:32:08,999 - INFO - Predicted MGC saved: dump/test/M0102_077_predicted.npy
+2025-05-16 17:32:09,004 - INFO - MCD calculated for speaker M0102, sentence 077: 109.9576
+2025-05-16 17:32:09,004 - INFO - Processing item 28/50: ATR503M0102_078
+2025-05-16 17:32:09,019 - INFO - Generating MGC for speaker M0102, sentence 078...
+2025-05-16 17:32:09,064 - INFO - log_mel.shape[1]: 1023, target_length: 1039
+2025-05-16 17:32:09,140 - INFO - CNN output shape: torch.Size([1, 64, 1039, 3])
+2025-05-16 17:32:09,140 - INFO - Phoneme embeddings shape: torch.Size([1, 1039, 16])
+2025-05-16 17:32:09,141 - INFO - Combined input shape for LSTM: torch.Size([1, 1039, 208])
+2025-05-16 17:32:09,173 - INFO - Predicted MGC saved: dump/test/M0102_078_predicted.npy
+2025-05-16 17:32:09,178 - INFO - MCD calculated for speaker M0102, sentence 078: 102.6359
+2025-05-16 17:32:09,179 - INFO - Processing item 29/50: ATR503M0102_079
+2025-05-16 17:32:09,204 - INFO - Generating MGC for speaker M0102, sentence 079...
+2025-05-16 17:32:09,265 - INFO - log_mel.shape[1]: 1268, target_length: 1284
+2025-05-16 17:32:09,378 - INFO - CNN output shape: torch.Size([1, 64, 1284, 3])
+2025-05-16 17:32:09,379 - INFO - Phoneme embeddings shape: torch.Size([1, 1284, 16])
+2025-05-16 17:32:09,379 - INFO - Combined input shape for LSTM: torch.Size([1, 1284, 208])
+2025-05-16 17:32:09,416 - INFO - Predicted MGC saved: dump/test/M0102_079_predicted.npy
+2025-05-16 17:32:09,421 - INFO - MCD calculated for speaker M0102, sentence 079: 101.6392
+2025-05-16 17:32:09,421 - INFO - Processing item 30/50: ATR503M0102_080
+2025-05-16 17:32:09,434 - INFO - Generating MGC for speaker M0102, sentence 080...
+2025-05-16 17:32:09,486 - INFO - log_mel.shape[1]: 1101, target_length: 1117
+2025-05-16 17:32:09,493 - INFO - CNN output shape: torch.Size([1, 64, 1117, 3])
+2025-05-16 17:32:09,494 - INFO - Phoneme embeddings shape: torch.Size([1, 1117, 16])
+2025-05-16 17:32:09,494 - INFO - Combined input shape for LSTM: torch.Size([1, 1117, 208])
+2025-05-16 17:32:09,515 - INFO - Predicted MGC saved: dump/test/M0102_080_predicted.npy
+2025-05-16 17:32:09,522 - INFO - MCD calculated for speaker M0102, sentence 080: 112.1738
+2025-05-16 17:32:09,523 - INFO - Processing item 31/50: ATR503M0102_081
+2025-05-16 17:32:09,534 - INFO - Generating MGC for speaker M0102, sentence 081...
+2025-05-16 17:32:09,590 - INFO - log_mel.shape[1]: 1114, target_length: 1130
+2025-05-16 17:32:09,705 - INFO - CNN output shape: torch.Size([1, 64, 1130, 3])
+2025-05-16 17:32:09,706 - INFO - Phoneme embeddings shape: torch.Size([1, 1130, 16])
+2025-05-16 17:32:09,706 - INFO - Combined input shape for LSTM: torch.Size([1, 1130, 208])
+2025-05-16 17:32:09,737 - INFO - Predicted MGC saved: dump/test/M0102_081_predicted.npy
+2025-05-16 17:32:09,741 - INFO - MCD calculated for speaker M0102, sentence 081: 114.7875
+2025-05-16 17:32:09,742 - INFO - Processing item 32/50: ATR503M0102_082
+2025-05-16 17:32:09,762 - INFO - Generating MGC for speaker M0102, sentence 082...
+2025-05-16 17:32:09,821 - INFO - log_mel.shape[1]: 1131, target_length: 1147
+2025-05-16 17:32:09,914 - INFO - CNN output shape: torch.Size([1, 64, 1147, 3])
+2025-05-16 17:32:09,916 - INFO - Phoneme embeddings shape: torch.Size([1, 1147, 16])
+2025-05-16 17:32:09,917 - INFO - Combined input shape for LSTM: torch.Size([1, 1147, 208])
+2025-05-16 17:32:09,952 - INFO - Predicted MGC saved: dump/test/M0102_082_predicted.npy
+2025-05-16 17:32:09,956 - INFO - MCD calculated for speaker M0102, sentence 082: 108.8476
+2025-05-16 17:32:09,957 - INFO - Processing item 33/50: ATR503M0102_083
+2025-05-16 17:32:09,980 - INFO - Generating MGC for speaker M0102, sentence 083...
+2025-05-16 17:32:10,043 - INFO - log_mel.shape[1]: 1123, target_length: 1139
+2025-05-16 17:32:10,140 - INFO - CNN output shape: torch.Size([1, 64, 1139, 3])
+2025-05-16 17:32:10,141 - INFO - Phoneme embeddings shape: torch.Size([1, 1139, 16])
+2025-05-16 17:32:10,141 - INFO - Combined input shape for LSTM: torch.Size([1, 1139, 208])
+2025-05-16 17:32:10,174 - INFO - Predicted MGC saved: dump/test/M0102_083_predicted.npy
+2025-05-16 17:32:10,178 - INFO - MCD calculated for speaker M0102, sentence 083: 118.5597
+2025-05-16 17:32:10,179 - INFO - Processing item 34/50: ATR503M0102_084
+2025-05-16 17:32:10,211 - INFO - Generating MGC for speaker M0102, sentence 084...
+2025-05-16 17:32:10,549 - INFO - log_mel.shape[1]: 1106, target_length: 1122
+2025-05-16 17:32:10,639 - INFO - CNN output shape: torch.Size([1, 64, 1122, 3])
+2025-05-16 17:32:10,642 - INFO - Phoneme embeddings shape: torch.Size([1, 1122, 16])
+2025-05-16 17:32:10,643 - INFO - Combined input shape for LSTM: torch.Size([1, 1122, 208])
+2025-05-16 17:32:10,671 - INFO - Predicted MGC saved: dump/test/M0102_084_predicted.npy
+2025-05-16 17:32:10,675 - INFO - MCD calculated for speaker M0102, sentence 084: 123.2068
+2025-05-16 17:32:10,676 - INFO - Processing item 35/50: ATR503M0102_085
+2025-05-16 17:32:10,702 - INFO - Generating MGC for speaker M0102, sentence 085...
+2025-05-16 17:32:10,758 - INFO - log_mel.shape[1]: 1119, target_length: 1135
+2025-05-16 17:32:10,871 - INFO - CNN output shape: torch.Size([1, 64, 1135, 3])
+2025-05-16 17:32:10,872 - INFO - Phoneme embeddings shape: torch.Size([1, 1135, 16])
+2025-05-16 17:32:10,873 - INFO - Combined input shape for LSTM: torch.Size([1, 1135, 208])
+2025-05-16 17:32:10,907 - INFO - Predicted MGC saved: dump/test/M0102_085_predicted.npy
+2025-05-16 17:32:10,911 - INFO - MCD calculated for speaker M0102, sentence 085: 114.0971
+2025-05-16 17:32:10,912 - INFO - Processing item 36/50: ATR503M0102_086
+2025-05-16 17:32:10,943 - INFO - Generating MGC for speaker M0102, sentence 086...
+2025-05-16 17:32:11,043 - INFO - log_mel.shape[1]: 1226, target_length: 1242
+2025-05-16 17:32:11,157 - INFO - CNN output shape: torch.Size([1, 64, 1242, 3])
+2025-05-16 17:32:11,158 - INFO - Phoneme embeddings shape: torch.Size([1, 1242, 16])
+2025-05-16 17:32:11,158 - INFO - Combined input shape for LSTM: torch.Size([1, 1242, 208])
+2025-05-16 17:32:11,193 - INFO - Predicted MGC saved: dump/test/M0102_086_predicted.npy
+2025-05-16 17:32:11,197 - INFO - MCD calculated for speaker M0102, sentence 086: 105.1834
+2025-05-16 17:32:11,198 - INFO - Processing item 37/50: ATR503M0102_087
+2025-05-16 17:32:11,272 - INFO - Generating MGC for speaker M0102, sentence 087...
+2025-05-16 17:32:11,396 - INFO - log_mel.shape[1]: 1264, target_length: 1280
+2025-05-16 17:32:11,405 - INFO - CNN output shape: torch.Size([1, 64, 1280, 3])
+2025-05-16 17:32:11,405 - INFO - Phoneme embeddings shape: torch.Size([1, 1280, 16])
+2025-05-16 17:32:11,406 - INFO - Combined input shape for LSTM: torch.Size([1, 1280, 208])
+2025-05-16 17:32:11,429 - INFO - Predicted MGC saved: dump/test/M0102_087_predicted.npy
+2025-05-16 17:32:11,437 - INFO - MCD calculated for speaker M0102, sentence 087: 118.0303
+2025-05-16 17:32:11,437 - INFO - Processing item 38/50: ATR503M0102_088
+2025-05-16 17:32:11,448 - INFO - Generating MGC for speaker M0102, sentence 088...
+2025-05-16 17:32:11,509 - INFO - log_mel.shape[1]: 1319, target_length: 1335
+2025-05-16 17:32:11,600 - INFO - CNN output shape: torch.Size([1, 64, 1335, 3])
+2025-05-16 17:32:11,601 - INFO - Phoneme embeddings shape: torch.Size([1, 1335, 16])
+2025-05-16 17:32:11,601 - INFO - Combined input shape for LSTM: torch.Size([1, 1335, 208])
+2025-05-16 17:32:11,633 - INFO - Predicted MGC saved: dump/test/M0102_088_predicted.npy
+2025-05-16 17:32:11,637 - INFO - MCD calculated for speaker M0102, sentence 088: 118.3305
+2025-05-16 17:32:11,638 - INFO - Processing item 39/50: ATR503M0102_089
+2025-05-16 17:32:11,663 - INFO - Generating MGC for speaker M0102, sentence 089...
+2025-05-16 17:32:11,724 - INFO - log_mel.shape[1]: 1294, target_length: 1310
+2025-05-16 17:32:11,837 - INFO - CNN output shape: torch.Size([1, 64, 1310, 3])
+2025-05-16 17:32:11,838 - INFO - Phoneme embeddings shape: torch.Size([1, 1310, 16])
+2025-05-16 17:32:11,838 - INFO - Combined input shape for LSTM: torch.Size([1, 1310, 208])
+2025-05-16 17:32:11,872 - INFO - Predicted MGC saved: dump/test/M0102_089_predicted.npy
+2025-05-16 17:32:11,876 - INFO - MCD calculated for speaker M0102, sentence 089: 128.7380
+2025-05-16 17:32:11,877 - INFO - Processing item 40/50: ATR503M0102_090
+2025-05-16 17:32:11,889 - INFO - Generating MGC for speaker M0102, sentence 090...
+2025-05-16 17:32:11,944 - INFO - log_mel.shape[1]: 1293, target_length: 1309
+2025-05-16 17:32:11,951 - INFO - CNN output shape: torch.Size([1, 64, 1309, 3])
+2025-05-16 17:32:11,951 - INFO - Phoneme embeddings shape: torch.Size([1, 1309, 16])
+2025-05-16 17:32:11,952 - INFO - Combined input shape for LSTM: torch.Size([1, 1309, 208])
+2025-05-16 17:32:11,981 - INFO - Predicted MGC saved: dump/test/M0102_090_predicted.npy
+2025-05-16 17:32:11,988 - INFO - MCD calculated for speaker M0102, sentence 090: 102.6974
+2025-05-16 17:32:11,989 - INFO - Processing item 41/50: ATR503M0102_091
+2025-05-16 17:32:12,004 - INFO - Generating MGC for speaker M0102, sentence 091...
+2025-05-16 17:32:12,059 - INFO - log_mel.shape[1]: 1326, target_length: 1342
+2025-05-16 17:32:12,067 - INFO - CNN output shape: torch.Size([1, 64, 1342, 3])
+2025-05-16 17:32:12,068 - INFO - Phoneme embeddings shape: torch.Size([1, 1342, 16])
+2025-05-16 17:32:12,069 - INFO - Combined input shape for LSTM: torch.Size([1, 1342, 208])
+2025-05-16 17:32:12,097 - INFO - Predicted MGC saved: dump/test/M0102_091_predicted.npy
+2025-05-16 17:32:12,104 - INFO - MCD calculated for speaker M0102, sentence 091: 124.0027
+2025-05-16 17:32:12,105 - INFO - Processing item 42/50: ATR503M0102_092
+2025-05-16 17:32:12,117 - INFO - Generating MGC for speaker M0102, sentence 092...
+2025-05-16 17:32:12,168 - INFO - log_mel.shape[1]: 1306, target_length: 1322
+2025-05-16 17:32:12,282 - INFO - CNN output shape: torch.Size([1, 64, 1322, 3])
+2025-05-16 17:32:12,283 - INFO - Phoneme embeddings shape: torch.Size([1, 1322, 16])
+2025-05-16 17:32:12,283 - INFO - Combined input shape for LSTM: torch.Size([1, 1322, 208])
+2025-05-16 17:32:12,312 - INFO - Predicted MGC saved: dump/test/M0102_092_predicted.npy
+2025-05-16 17:32:12,317 - INFO - MCD calculated for speaker M0102, sentence 092: 115.6158
+2025-05-16 17:32:12,317 - INFO - Processing item 43/50: ATR503M0102_093
+2025-05-16 17:32:12,338 - INFO - Generating MGC for speaker M0102, sentence 093...
+2025-05-16 17:32:12,398 - INFO - log_mel.shape[1]: 1368, target_length: 1384
+2025-05-16 17:32:12,406 - INFO - CNN output shape: torch.Size([1, 64, 1384, 3])
+2025-05-16 17:32:12,406 - INFO - Phoneme embeddings shape: torch.Size([1, 1384, 16])
+2025-05-16 17:32:12,406 - INFO - Combined input shape for LSTM: torch.Size([1, 1384, 208])
+2025-05-16 17:32:12,437 - INFO - Predicted MGC saved: dump/test/M0102_093_predicted.npy
+2025-05-16 17:32:12,444 - INFO - MCD calculated for speaker M0102, sentence 093: 98.9285
+2025-05-16 17:32:12,445 - INFO - Processing item 44/50: ATR503M0102_094
+2025-05-16 17:32:12,465 - INFO - Generating MGC for speaker M0102, sentence 094...
+2025-05-16 17:32:12,537 - INFO - log_mel.shape[1]: 1644, target_length: 1660
+2025-05-16 17:32:12,650 - INFO - CNN output shape: torch.Size([1, 64, 1660, 3])
+2025-05-16 17:32:12,650 - INFO - Phoneme embeddings shape: torch.Size([1, 1660, 16])
+2025-05-16 17:32:12,651 - INFO - Combined input shape for LSTM: torch.Size([1, 1660, 208])
+2025-05-16 17:32:12,688 - INFO - Predicted MGC saved: dump/test/M0102_094_predicted.npy
+2025-05-16 17:32:12,694 - INFO - MCD calculated for speaker M0102, sentence 094: 116.9957
+2025-05-16 17:32:12,694 - INFO - Processing item 45/50: ATR503M0102_095
+2025-05-16 17:32:12,722 - INFO - Generating MGC for speaker M0102, sentence 095...
+2025-05-16 17:32:12,781 - INFO - log_mel.shape[1]: 1466, target_length: 1482
+2025-05-16 17:32:12,796 - INFO - CNN output shape: torch.Size([1, 64, 1482, 3])
+2025-05-16 17:32:12,796 - INFO - Phoneme embeddings shape: torch.Size([1, 1482, 16])
+2025-05-16 17:32:12,797 - INFO - Combined input shape for LSTM: torch.Size([1, 1482, 208])
+2025-05-16 17:32:12,827 - INFO - Predicted MGC saved: dump/test/M0102_095_predicted.npy
+2025-05-16 17:32:12,835 - INFO - MCD calculated for speaker M0102, sentence 095: 115.5515
+2025-05-16 17:32:12,836 - INFO - Processing item 46/50: ATR503M0102_096
+2025-05-16 17:32:12,846 - INFO - Generating MGC for speaker M0102, sentence 096...
+2025-05-16 17:32:12,919 - INFO - log_mel.shape[1]: 1499, target_length: 1515
+2025-05-16 17:32:12,933 - INFO - CNN output shape: torch.Size([1, 64, 1515, 3])
+2025-05-16 17:32:12,934 - INFO - Phoneme embeddings shape: torch.Size([1, 1515, 16])
+2025-05-16 17:32:12,934 - INFO - Combined input shape for LSTM: torch.Size([1, 1515, 208])
+2025-05-16 17:32:12,963 - INFO - Predicted MGC saved: dump/test/M0102_096_predicted.npy
+2025-05-16 17:32:12,972 - INFO - MCD calculated for speaker M0102, sentence 096: 117.9230
+2025-05-16 17:32:12,972 - INFO - Processing item 47/50: ATR503M0102_097
+2025-05-16 17:32:12,985 - INFO - Generating MGC for speaker M0102, sentence 097...
+2025-05-16 17:32:13,069 - INFO - log_mel.shape[1]: 1689, target_length: 1705
+2025-05-16 17:32:13,183 - INFO - CNN output shape: torch.Size([1, 64, 1705, 3])
+2025-05-16 17:32:13,184 - INFO - Phoneme embeddings shape: torch.Size([1, 1705, 16])
+2025-05-16 17:32:13,184 - INFO - Combined input shape for LSTM: torch.Size([1, 1705, 208])
+2025-05-16 17:32:13,219 - INFO - Predicted MGC saved: dump/test/M0102_097_predicted.npy
+2025-05-16 17:32:13,225 - INFO - MCD calculated for speaker M0102, sentence 097: 112.7920
+2025-05-16 17:32:13,226 - INFO - Processing item 48/50: ATR503M0102_098
+2025-05-16 17:32:13,251 - INFO - Generating MGC for speaker M0102, sentence 098...
+2025-05-16 17:32:13,321 - INFO - log_mel.shape[1]: 1743, target_length: 1759
+2025-05-16 17:32:13,338 - INFO - CNN output shape: torch.Size([1, 64, 1759, 3])
+2025-05-16 17:32:13,339 - INFO - Phoneme embeddings shape: torch.Size([1, 1759, 16])
+2025-05-16 17:32:13,339 - INFO - Combined input shape for LSTM: torch.Size([1, 1759, 208])
+2025-05-16 17:32:13,370 - INFO - Predicted MGC saved: dump/test/M0102_098_predicted.npy
+2025-05-16 17:32:13,391 - INFO - MCD calculated for speaker M0102, sentence 098: 118.3326
+2025-05-16 17:32:13,392 - INFO - Processing item 49/50: ATR503M0102_099
+2025-05-16 17:32:13,405 - INFO - Generating MGC for speaker M0102, sentence 099...
+2025-05-16 17:32:13,507 - INFO - log_mel.shape[1]: 1864, target_length: 1880
+2025-05-16 17:32:13,519 - INFO - CNN output shape: torch.Size([1, 64, 1880, 3])
+2025-05-16 17:32:13,519 - INFO - Phoneme embeddings shape: torch.Size([1, 1880, 16])
+2025-05-16 17:32:13,520 - INFO - Combined input shape for LSTM: torch.Size([1, 1880, 208])
+2025-05-16 17:32:13,559 - INFO - Predicted MGC saved: dump/test/M0102_099_predicted.npy
+2025-05-16 17:32:13,569 - INFO - MCD calculated for speaker M0102, sentence 099: 123.8283
+2025-05-16 17:32:13,569 - INFO - Processing item 50/50: ATR503M0102_100
+2025-05-16 17:32:13,586 - INFO - Generating MGC for speaker M0102, sentence 100...
+2025-05-16 17:32:13,685 - INFO - log_mel.shape[1]: 1839, target_length: 1855
+2025-05-16 17:32:13,766 - INFO - CNN output shape: torch.Size([1, 64, 1855, 3])
+2025-05-16 17:32:13,767 - INFO - Phoneme embeddings shape: torch.Size([1, 1855, 16])
+2025-05-16 17:32:13,768 - INFO - Combined input shape for LSTM: torch.Size([1, 1855, 208])
+2025-05-16 17:32:13,807 - INFO - Predicted MGC saved: dump/test/M0102_100_predicted.npy
+2025-05-16 17:32:13,813 - INFO - MCD calculated for speaker M0102, sentence 100: 121.6981
+2025-05-16 17:32:13,814 - INFO - Average MCD across all sentences: 113.1093
+2025-05-16 17:32:13,815 - INFO - Evaluation process completed.
